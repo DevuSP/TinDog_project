@@ -1,0 +1,95 @@
+
+
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#testimonial, #logo-container{
+  background-color: rgb(239, 239, 235);
+}
+#dog-img {
+  padding-top: 5px;
+}
+
+#features {
+  margin-top: 5px;
+}
+
+#tinku>img {
+   border-radius: 50%;
+   width: 75px;
+   margin-top: 5px;
+   margin-bottom: 2px;
+}
+
+.logo { 
+  height: 30px;
+  margin: 30px;
+}
+
+#testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ #logo-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+} 
+
+.kyu {
+  display: flex;
+  justify-content: center;
+}
+
+#bhai {
+  font-size: 4rem;
+}
+
+.kyu> p{
+  font-size: 1.5rem;
+}
+
+.loo{
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  margin: 40px 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
